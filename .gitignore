@@ -1,0 +1,35 @@
+# Build output
+target/
+out/
+build/
+bin/
+*.class
+
+# Packaged files
+*.jar
+*.war
+*.ear
+
+# Logs and JVM crash dumps
+*.log
+hs_err_pid*
+replay_pid*
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
