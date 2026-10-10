@@ -1,0 +1,23 @@
+# Ammunition the knight is equipped with, one item per line.
+# Fields are separated by ';'. Weight is in kilograms, price in gold.
+# An item replaces an earlier one that occupies the same slot.
+#
+# HELMET;name;weight;price;material;protection;visor
+# CUIRASS|GAUNTLETS|GREAVES;name;weight;price;material;protection
+# SHIELD;name;weight;price;material;protection;blockChance
+# SWORD;name;weight;price;damage;bladeLength
+# MACE;name;weight;price;damage;spiked
+# DAGGER;name;weight;price;damage
+#
+# Materials: LEATHER, CHAIN_MAIL, IRON, STEEL
+
+HELMET;Great Helm;2.5;120.00;STEEL;35;true
+CUIRASS;Milanese Cuirass;12.0;450.00;STEEL;60
+GAUNTLETS;Hourglass Gauntlets;1.8;80.00;STEEL;15
+GREAVES;Plate Greaves;4.2;150.00;IRON;25
+SHIELD;Heater Shield;4.5;95.00;IRON;30;25
+SWORD;Longsword;1.6;300.00;45;95
+DAGGER;Rondel Dagger;0.4;40.00;15
+
+# Uncomment to fight with a mace instead of the sword
+# MACE;Flanged Mace;2.3;180.00;40;false
